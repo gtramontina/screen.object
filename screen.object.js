@@ -7,7 +7,7 @@ catch (e) { throw new Error('\nCould not find "driver.settings.[js|json]".\n' +
 'Please refer to the documentation on how to set scren.object up.\n'); }
 
 settings.remote = settings.remote || [ 'localhost', 4723 ];
-settings.screensDirectory = settings.screensDirectory || 'screen';
+settings.screensDirectory = settings.screensDirectory || 'test/screen';
 
 if (!settings.capabilities || !Object.keys(settings.capabilities).length)
   throw new Error('\nPlease setup at least one device.\n' +

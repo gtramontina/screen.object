@@ -4,6 +4,7 @@
   "main"          : "screen.object.js",
 
   "dependencies"  : {
-    "wd"          : "0.0"
+    "wd"          : "0.0",
+    "appium"      : "0.8"
   }
 }
