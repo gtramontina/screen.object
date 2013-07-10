@@ -1,0 +1,9 @@
+{
+  "name"          : "screen.object",
+  "version"       : "1.0.0",
+  "main"          : "screen.object.js",
+
+  "dependencies"  : {
+    "wd"          : "0.0"
+  }
+}
