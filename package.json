@@ -1,7 +1,12 @@
 {
   "name"          : "screen.object",
+  "description"   : "Page Object Pattern for Appium and Mocha.",
   "version"       : "1.0.0",
   "main"          : "screen.object.js",
+
+  "keywords"      : [ "appium", "mocha", "screen", "page", "object", "pattern" ],
+  "repository"    : "git://github.com/gtramontina/screen.object.git",
+  "author"        : "Guilherme J. Tramontina <guilherme.tramontina@gmail.com>",
 
   "dependencies"  : {
     "wd"          : "0.0",
