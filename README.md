@@ -14,11 +14,8 @@ ___It can be a bit complicated to explain, so please take a look at the example 
 
 ```javascript
 module.exports = {
-  // DEFAULT
-  screensDirectory: 'test/screen',
-
-  // DEFAULT
-  remote          : ['localhost', 4723 ],
+  screensDir      : 'test/screen',        // DEFAULT
+  remote          : ['localhost', 4723 ], // DEFAULT
 
   // REQUIRED!
   capabilities    : {
