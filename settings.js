@@ -1,4 +1,6 @@
 var settings;
+var path = require('path');
+var workingDir = process.cwd();
 var file = 'drivers.settings';
 var defaults = {
   screensDir: 'test/screen',

@@ -1,7 +1,7 @@
 {
   "name"          : "screen.object",
   "description"   : "Page Object Pattern for Appium and Mocha.",
-  "version"       : "1.1.0",
+  "version"       : "1.1.1",
   "main"          : "screen.object.js",
 
   "keywords"      : [ "appium", "mocha", "screen", "page", "object", "pattern" ],
