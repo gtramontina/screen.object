@@ -13,7 +13,7 @@ global.withScreen = function (screen, tests) { return function () {
 function run (name, capability, tests) {
   var screen;
   beforeEach(function () {
-    this.driver = screen.driver = wd.remote.apply(this, settings.remote).chain();
+    this.driver = screen.driver = wd.promiseChainRemote.apply(this, settings.remote);
     this.driver.init(capability);
   });
 
